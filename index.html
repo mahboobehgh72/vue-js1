@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3.0.2/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Sratr</h1>
+<div id="app">
+    <h3 class="zero">{{mount}}</h3>
+     <div id="button">
+
+       <button class="mount"  @click="mount++" >
+            <span class="material-symbols-outlined"> {{title}}</span>
+       </button>
+        
+       <button class="mount2"  @click="mount--">
+        <span class="material-symbols-outlined">{{ box}} </span>
+       </button>
+    </div>
+  
+</div>
+    <script src="./text.js"></script>
+</body>
+</html>
